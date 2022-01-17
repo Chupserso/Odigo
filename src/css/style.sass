@@ -1,3 +1,108 @@
 *
-    padding: 0px
+    padding: 0px;
     margin: 0px
+$wrapper_width: 1136px
+@font-face
+  font-family: "lato-light"
+  src: url("../fonts/lato/Lato-Light.ttf")
+@font-face
+  font-family: "lato-regular"
+  src: url("../fonts/lato/Lato-Regular.ttf")
+.header
+    background: url("../img/fone_header.png") center center/cover no-repeat;
+    height: 962px;
+.hat
+    padding: 0 191px
+    max-width: 100%
+    display: flex
+    height: 143px
+    justify-content: space-between
+    align-items: center
+.hat>.menu ul
+    display: flex
+    justify-content: space-between
+    width: 490px
+.hat>.menu li
+    list-style-type: none
+.hat>.menu li>a
+    text-decoration: none
+    color: #fff
+    font-size: 18px
+    line-height: 24px
+    font-style: normal
+    font-weight: normal
+    font-family: "lato-light"
+.header_content
+    width: $wrapper_width
+    display: block
+    margin: 0 auto
+    margin-top: 120px
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+.header_title
+    width: 619px
+.header_title>h1
+    font-family: "lato-regular"
+    font-style: normal
+    font-weight: 500
+    font-size: 50px
+    line-height: 60px
+    color: #FFFFFF
+.header_text
+    width: 546px
+    font-family: "lato-light"
+    font-size: 16px
+    line-height: 24px
+    color: #FFFFFF
+    margin-top: 22px
+.search_button>button
+    width: 171px
+    height: 58px
+    background: #1B7DFF
+    border: none
+    font-family: "lato-regular"
+    font-weight: 500
+    font-size: 24px
+    line-height: 29px
+    color: #FFFFFF
+.search_button>button:hover
+    cursor: pointer
+    box-shadow: 0 0 100px darkblue
+    width: 181px
+    height: 68px
+    background: blue
+    transition: 1s all
+.header_search
+    margin-top: 54px
+.header_search form
+    display: flex
+    width: 886px
+    justify-content: space-between
+.header_point
+    width: 20px
+    height: 20px
+    border-radius: 100%
+    border: 2px solid #FFFFFF;
+.header_input
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-bottom: 22px
+    border-bottom: 2px solid #BFC0C5
+.header_input .input
+    margin-left: 23px
+.header_input .input>input
+    width: 226px
+    background: none
+    border: none
+    font-family: "lato-light"
+    font-style: normal
+    font-weight: 500
+    font-size: 18px
+    line-height: 24px
+    color: #FFFFFF
+.header_input .input>input::placeholder
+    color: #FFFFFF
+.header_input .input>input:focus
+    outline: 0
