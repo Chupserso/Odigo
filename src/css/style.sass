@@ -10,12 +10,12 @@ $wrapper_width: 1136px
   src: url("../fonts/lato/Lato-Regular.ttf")
 .header
     background: url("../img/fone_header.png") center center/cover no-repeat;
-    height: 962px;
+    min-height: 962px;
 .hat
     padding: 0 191px
     max-width: 100%
     display: flex
-    height: 143px
+    min-height: 143px
     justify-content: space-between
     align-items: center
 .hat>.menu ul
@@ -106,3 +106,53 @@ $wrapper_width: 1136px
     color: #FFFFFF
 .header_input .input>input:focus
     outline: 0
+.benefits
+    position: relative
+    top: -228px
+    max-width: 1262px
+    min-height: 655px
+    background: #FFFFFF
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993)
+    display: block
+    margin: 0 auto
+    padding-top: 93px
+.benefits_logo
+    font-family: "lato-regular"
+    font-weight: 500
+    font-size: 35px
+    line-height: 42px
+    color: #102746
+    margin-left: 99px
+.benefits_menu
+    margin: 120px auto
+    width: 1061px
+    display: flex
+    justify-content: space-between
+.benefits_title
+    font-family: "lato-regular"
+    font-weight: 500
+    font-size: 18px
+    line-height: 24px
+    color: #000000
+    margin-top: 37px
+.benefits_descr
+    font-family: "lato-light"
+    font-size: 16px
+    line-height: 24px
+    color: #000000
+    margin-top: 26px
+.benefits_link a
+    width: 161px
+    display: flex
+    justify-content: space-between
+    font-family: "lato-light"
+    font-size: 16px
+    line-height: 24px
+    color: #006DFE
+    text-decoration: none
+.benefits_link a:hover
+    color: blue
+    text-decoration: underline
+    transition: 1s all
+.benefits_link
+    margin-top: 39px
