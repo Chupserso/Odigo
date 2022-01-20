@@ -1,7 +1,7 @@
 *
     padding: 0px;
     margin: 0px
-$wrapper_width: 1136px
+$wrapper_width: 1262px
 @font-face
   font-family: "lato-light"
   src: url("../fonts/lato/Lato-Light.ttf")
@@ -33,7 +33,7 @@ $wrapper_width: 1136px
     font-weight: normal
     font-family: "lato-light"
 .header_content
-    width: $wrapper_width
+    max-width: 1136px
     display: block
     margin: 0 auto
     margin-top: 120px
@@ -109,7 +109,7 @@ $wrapper_width: 1136px
 .benefits
     position: relative
     top: -228px
-    max-width: 1262px
+    max-width: $wrapper_width
     min-height: 655px
     background: #FFFFFF
     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993)
@@ -145,7 +145,7 @@ $wrapper_width: 1136px
     width: 161px
     display: flex
     justify-content: space-between
-    font-family: "lato-light"
+    font-family: "lato-regular"
     font-size: 16px
     line-height: 24px
     color: #006DFE
@@ -156,3 +156,88 @@ $wrapper_width: 1136px
     transition: 1s all
 .benefits_link
     margin-top: 39px
+.portfolio
+    width: $wrapper_width
+    display: block
+    margin: -100px auto
+    min-height: 735px
+.portfolio_hat
+    display: flex
+    width: 100%
+    justify-content: space-between
+.portfolio_header
+    display: flex
+    flex-direction: column
+.view_all
+    display: flex
+    align-items: center
+.view_all .view_img
+    margin-left: 26px
+.view_text a
+    text-decoration: none
+    font-family: "lato-regular"
+    font-size: 16px
+    line-height: 24px
+    color: #006DFE
+.view_text a:hover
+    color: blue
+    text-decoration: underline
+    transition: 1s all
+.portfolio_title h2
+    font-family: "lato-regular"
+    font-weight: 500
+    font-size: 35px
+    line-height: 42px
+    color: #102746
+.portfolio_title hr
+    width: 253px
+    height: 2px
+    border: none
+    background: #006DFE
+    margin-top: 7px
+.galw
+    width: 594.5px
+    height: 327px
+    display: flex
+    justify-content: flex-start
+    align-items: flex-end
+    padding-left: 32px
+    padding-bottom: 27px
+.galley_wrapper1
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 36px
+.gallery_wrapper2
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 10px
+.portfolio_gallery
+    display: flex
+    flex-direction: column
+    align-items: center
+.gallery__item1
+    background: url("../img/mount.png") center center/cover no-repeat
+.gallery__item2
+    background: url("../img/kyoto.png") center center/cover no-repeat
+.gallery__item3
+    width: 383px
+    height: 256px
+    background: url("../img/tokyo.png") center center/cover no-repeat
+.gallery__item4
+    width: 383px
+    height: 256px
+    background: url("../img/niigata.png") center center/cover no-repeat
+.gallery__item5
+    width: 383px
+    height: 256px
+    background: url("../img/sapporo.png") center center/cover no-repeat
+.gallery_title
+    font-family: "lato-regular"
+    font-weight: bold
+    font-size: 50px
+    line-height: 60px
+    color: #FFFFFF
