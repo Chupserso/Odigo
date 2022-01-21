@@ -1,1 +1,35 @@
 "use strict";
+
+$(function(){
+    $(".offers_social").hide();
+    $(".mod1").mouseenter(function(){
+        $(".mod1>.offers_social").fadeIn(200);
+    }).mouseleave(function(){
+        $(".mod1>.offers_social").fadeOut(200);
+    });
+    $(".mod2").mouseenter(function(){
+        $(".mod2>.offers_social").fadeIn(200);
+    }).mouseleave(function(){
+        $(".mod2>.offers_social").fadeOut(200);
+    });
+    $(".mod3").mouseenter(function(){
+        $(".mod3>.offers_social").fadeIn(200);
+    }).mouseleave(function(){
+        $(".mod3>.offers_social").fadeOut(200);
+    });
+    $(".mod4").mouseenter(function(){
+        $(".mod4>.offers_social").fadeIn(200);
+    }).mouseleave(function(){
+        $(".mod4>.offers_social").fadeOut(200);
+    });
+    $(".mod5").mouseenter(function(){
+        $(".mod5>.offers_social").fadeIn(200);
+    }).mouseleave(function(){
+        $(".mod5>.offers_social").fadeOut(200);
+    });
+    $(".mod6").mouseenter(function(){
+        $(".mod6>.offers_social").fadeIn(200);
+    }).mouseleave(function(){
+        $(".mod6>.offers_social").fadeOut(200);
+    });
+});
