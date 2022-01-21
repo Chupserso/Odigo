@@ -746,4 +746,68 @@
 .mod6 {
   background: url("../img/menuItem6.png") center center/cover no-repeat;
 }
+
+.video {
+  margin-top: 144px;
+  min-height: 609px;
+  background: url("../img/playFone.png") center center/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  max-width: 100%;
+  min-height: 370px;
+  background: #0E1D28;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 194px;
+}
+
+.link_block {
+  width: 552px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.link__item {
+  line-height: 25px;
+}
+
+.link__item .link > a {
+  font-family: "lato-light";
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.link__item .link > a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: wheat;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
 /*# sourceMappingURL=style.css.map */
